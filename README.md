@@ -1,17 +1,17 @@
 # Healthcare-Management
 
-#Create a Controller
+#Create a Controller :
 php bin/console make:controller ControllerName
 
-#Create an Entity (Model)
+#Create an Entity (Model) :
 php bin/console make:entity EntityName
 
-#migration
+#migration :
 php bin/console make:migration
 php bin/console doctrine:migrations:migrate
 
-#Clear Cache
+#Clear Cache :
 php artisan cache:clear
 
-#Run Symfony Development Server
+#Run Symfony Development Server :
 php bin/console server:run
